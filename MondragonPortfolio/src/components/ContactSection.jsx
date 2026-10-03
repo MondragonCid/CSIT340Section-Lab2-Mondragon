@@ -1,39 +1,26 @@
+import SectionHeading from "./SectionHeading";
+import ContactLink from "./ContactLink";
+
 export default function ContactSection() {
   return (
-    <section
-      id="contact"
-      className="max-w-4xl mx-auto px-6 py-16 border-t border-stone-200 scroll-mt-16"
-    >
-      <h2 className="text-2xl font-semibold tracking-tight">Contact</h2>
-      <p className="mt-2 text-stone-600">Say hi.</p>
+    <section id="contact" className="max-w-4xl mx-auto px-6 py-16 border-t border-stone-200 scroll-mt-16">
+      <SectionHeading title="Contact" subtitle="Say hi." />
       <ul className="mt-8 space-y-3">
-        <li>
-          <span className="inline-block w-24 text-sm text-stone-500">Email</span>
-          <a
-            href="mailto:juan.delacruz@cit.edu"
-            className="font-medium hover:underline"
-          >
-            juan.delacruz@cit.edu
-          </a>
-        </li>
-        <li>
-          <span className="inline-block w-24 text-sm text-stone-500">GitHub</span>
-          <a
-            href="https://github.com/juandelacruz"
-            className="font-medium hover:underline"
-          >
-            github.com/juandelacruz
-          </a>
-        </li>
-        <li>
-          <span className="inline-block w-24 text-sm text-stone-500">LinkedIn</span>
-          <a
-            href="https://linkedin.com/in/juandelacruz"
-            className="font-medium hover:underline"
-          >
-            linkedin.com/in/juandelacruz
-          </a>
-        </li>
+        <ContactLink
+          label="Email"
+          href="mailto:juan.delacruz@cit.edu"
+          text="juan.delacruz@cit.edu"
+        />
+        <ContactLink
+          label="GitHub"
+          href="https://github.com/juandelacruz"
+          text="github.com/juandelacruz"
+        />
+        <ContactLink
+          label="LinkedIn"
+          href="https://linkedin.com/in/juandelacruz"
+          text="linkedin.com/in/juandelacruz"
+        />
       </ul>
     </section>
   );
