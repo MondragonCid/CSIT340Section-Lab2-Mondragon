@@ -8,18 +8,18 @@ export default function ContactSection() {
       <ul className="mt-8 space-y-3">
         <ContactLink
           label="Email"
-          href="mailto:juan.delacruz@cit.edu"
-          text="juan.delacruz@cit.edu"
+          href="mailto:mondragonjacerrein@gmail.com"
+          text="mondragonjacerrein@gmail.com"
         />
         <ContactLink
           label="GitHub"
-          href="https://github.com/juandelacruz"
-          text="github.com/juandelacruz"
+          href="https://github.com/MondragonCid"
+          text="github.com/MondragonCid"
         />
         <ContactLink
           label="LinkedIn"
-          href="https://linkedin.com/in/juandelacruz"
-          text="linkedin.com/in/juandelacruz"
+          href="https://www.linkedin.com/in/cid-mondragon-12313037a/"
+          text="linkedin.com/in/cid-mondragon"
         />
       </ul>
     </section>

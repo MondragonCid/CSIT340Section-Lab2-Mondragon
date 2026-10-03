@@ -10,19 +10,19 @@ export default function ExperienceSection() {
           period="2024 – Present"
           title="BS Information Technology"
           place="Cebu Institute of Technology – University"
-          description="Taking up web development, databases, and systems analysis."
+          description="Taking up web development, databases, and systems analysis, project management and tehcnopreneurship."
         />
         <TimelineItem
           period="2025"
-          title="Student Assistant"
-          place="CCS Computer Laboratory"
-          description="Set up lab machines and helped students with software installs."
+          title="TO BE ADDED! (No exprience yet)"
+          place="Place Area (placeholder rani)"
+          description="Description Area (placeholder rasad ni)"
         />
         <TimelineItem
-          period="2022 – 2024"
-          title="Senior High School, ICT Strand"
-          place="Talisay City National High School"
-          description="Built my first web page and got hooked."
+          period="2026"
+          title="TO BE ADDED! (No exprience yet)"
+          place="Place Area (placeholder rani)"
+          description="Description Area (placeholder rasad ni)"
         />
       </ol>
     </section>
