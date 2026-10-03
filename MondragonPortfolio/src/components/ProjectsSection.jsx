@@ -11,28 +11,28 @@ export default function ProjectsSection() {
           title="About Me in React"
           description="My first React project, rebuilt from a plain HTML page."
           tech="React · Tailwind CSS"
-          link="https://github.com/juandelacruz/CSIT340-Lab1-DelaCruz"
+          link="https://github.com/MondragonCid/CSIT340Section-Lab2-Mondragon"
         />
         <ProjectCard
           year="2025"
-          title="Canteen Queue"
-          description="A page that shows how long the canteen line is so students can decide when to go."
-          tech="HTML · CSS · JavaScript"
-          link="https://github.com/juandelacruz/canteen-queue"
+          title="Report System"
+          description="A web that allows Students to report damages around the Campus. Dedicated for CIT-U."
+          tech="myPhp · mySQL"
+          link="https://github.com/MondragonCid/ReportSystem"
         />
         <ProjectCard
           year="2025"
-          title="Clinic Records"
-          description="A desktop app for our database class that keeps visit records for a small clinic."
-          tech="Java · MySQL"
-          link="https://github.com/juandelacruz/clinic-records"
+          title="StressPandemic"
+          description="A text based RPG game based on CIT-U."
+          tech="Java"
+          link="https://github.com/MondragonCid/StressPandemic"
         />
         <ProjectCard
-          year="2024"
-          title="Org Event Page"
-          description="A one-page site for our org's freshman orientation, with the schedule and venue."
-          tech="HTML · Bootstrap"
-          link="https://github.com/juandelacruz/org-event-page"
+          year="2025"
+          title="Inventory Management"
+          description="An inventory management dedicated for Coffee Shops."
+          tech="Java · mySQL"
+          link="https://github.com/MondragonCid/Inventory-Management"
         />
       </div>
     </section>

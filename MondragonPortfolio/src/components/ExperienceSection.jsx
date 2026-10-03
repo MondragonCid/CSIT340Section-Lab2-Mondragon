@@ -7,7 +7,7 @@ export default function ExperienceSection() {
       <SectionHeading title="Experience" subtitle="Where I have learned and worked." />
       <ol className="mt-8 space-y-8 border-l border-stone-200">
         <TimelineItem
-          period="2024 – Present"
+          period="2024"
           title="BS Information Technology"
           place="Cebu Institute of Technology – University"
           description="Taking up web development, databases, and systems analysis, project management and tehcnopreneurship."

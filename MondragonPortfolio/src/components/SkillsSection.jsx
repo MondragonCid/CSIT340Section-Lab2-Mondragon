@@ -13,6 +13,8 @@ export default function SkillsSection() {
             <SkillTag name="CSS" />
             <SkillTag name="JavaScript" />
             <SkillTag name="Java" />
+            <SkillTag name="C" />
+            <SkillTag name="C++" />
           </div>
         </div>
         <div>
@@ -30,6 +32,7 @@ export default function SkillsSection() {
             <SkillTag name="VS Code" />
             <SkillTag name="MySQL" />
             <SkillTag name="Figma" />
+            <SkillTag name="Canva" />
           </div>
         </div>
       </div>
